@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: #313646;
+  color: aliceblue;
+  font-family: "Odibee Sans", cursive;
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 20%;
+  align-items: center;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3.6rem;
+}
+#results {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  font-size: 2.4rem;
+}
+#game {
+  position: relative;
+}
+#board {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#gameOver {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#gameOver > p {
+  font-size: 4.4rem;
+}
+#copyright {
+  font-size: 1.6rem;
+}
+button {
+  font-family: "Odibee Sans", cursive;
+  font-size: 2.4rem;
+}
+.hide {
+  z-index: -1;
+}
